@@ -1,0 +1,54 @@
+#header {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: #10284e;
+  color: white;
+  overflow: hidden;
+}
+#branding h1 {
+  color: white;
+}
+
+div.breadcrumbs {
+  background: #30caa0;
+  padding: 10px 40px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  text-align: left;
+  font-weight: 400;
+}
+a:link,
+a:visited {
+  color: #10284e;
+}
+div.breadcrumbs a {
+  color: #333;
+}
+.module h2,
+.module caption,
+.inline-group h2 {
+  margin: 0;
+  padding: 8px;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: left;
+  background: #30caa0;
+  color: #fff;
+}
+.button,
+input[type="submit"],
+input[type="button"],
+.submit-row input,
+a.button {
+  background: #10284e;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
